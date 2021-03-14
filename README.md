@@ -23,3 +23,9 @@ ROLLBAR_SERVER_SIDE_ACCESS_TOKEN=....
 ```
 
 Please view the [javascript documentation](http://opentreemap.github.io/otm-tiler/server.html).
+
+# Building with docker
+To run this using the docker-compose in otm-vagrant, simply run
+```
+docker build -t otm-tiler:1.0 .
+```
